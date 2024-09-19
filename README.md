@@ -34,21 +34,14 @@ To install the extension in Developer Mode for testing purposes:
 
 ## Folder Structure
 
-```bash
-motivational-quotes-extension/
-│
-├── manifest.json       # Configuration and metadata for the Chrome extension
-├── newtab.html         # The HTML page displayed when a new tab is opened
-├── script.js           # JavaScript to handle quote display logic
-├── favicon.png         # Icon displayed on the tab (favicon)
-├── icon16.png          # Extension icon (16x16)
-├── icon48.png          # Extension icon (48x48)
-├── icon128.png         # Extension icon (128x128)
-├── README.md           # This documentation file
-
 ## How It Work
-HTML (newtab.html): This file defines the structure of the new tab page. It includes a div for displaying the random quote and an attribution section linking to the developer's LinkedIn profile.
 
-CSS (inline in newtab.html): The style is embedded in the HTML file, giving the new tab a professional appearance, with a black background, a white-bordered quote box, and text colors set to green for the quote and red for the author.
++ HTML (newtab.html): This file defines the structure of the new tab page. It includes a div for displaying the random quote and an attribution section linking to the developer's LinkedIn profile.
 
-JavaScript (script.js): The JavaScript file is responsible for picking a random quote from a predefined list of motivational quotes and displaying it inside the quote box when the tab is opened.
++ CSS (inline in newtab.html): The style is embedded in the HTML file, giving the new tab a professional appearance, with a black background, a white-bordered quote box, and text colors set to green for the quote and red for the author.
+
++ JavaScript (script.js): The JavaScript file is responsible for picking a random quote from a predefined list of motivational quotes and displaying it inside the quote box when the tab is opened.
+
++ LinkedIn Attribution: Below the quote, a clickable link points to the developer's LinkedIn profile.
+
+

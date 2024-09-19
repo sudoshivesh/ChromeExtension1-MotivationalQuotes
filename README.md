@@ -34,6 +34,9 @@ To install the extension in Developer Mode for testing purposes:
 
 ## Folder Structure
 
+The Structure of the Folder must looks like:
+[Folder Structure](structure.png)
+
 ## How It Work
 
 1. newtab.html

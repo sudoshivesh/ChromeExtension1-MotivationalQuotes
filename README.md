@@ -73,14 +73,7 @@ The Structure of the Folder must looks like:
        <link rel="icon" type="image/png" href="favicon.png" />
 
 ## License
-This project is licensed under the MIT License. You can modify and use it for personal or commercial purposes, but please provide attribution to the original author.
 
-### Key Changes:
-
-1. **Separated "Folder Structure" and "How It Works"**: The new section starts after the folder structure, ensuring clarity.
-2. **Added Information about `manifest.json`**: The explanation about `manifest.json` is added under the **How It Works** section.
-3. **Proper Markdown Structure**: Ensured that each section is clearly defined and doesn't interfere with the previous one.
-
-This updated structure should now be clean and easy to follow! Let me know if you need any further changes.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Motivational Quotes</title>
+  
+  <!-- Link to the favicon -->
+  <link rel="icon" type="image/png" href="favicon.png" />
+
+  <style>
+    /* Overall body styling */
+    body {
+      font-family: 'Arial', sans-serif;
+      display: flex;
+      justify-content: center;    /* Center content horizontally */
+      align-items: center;        /* Center content vertically */
+      height: 100vh;              /* Full viewport height */
+      margin: 0;
+      background-color: #000;     /* Black background */
+      color: #fff;                /* Default text color */
+      flex-direction: column;     /* Stack items vertically */
+    }
+
+    /* Styling for the quote box */
+    .quote-box {
+      background-color: transparent;
+      border: 2px solid #fff;     /* White border */
+      padding: 30px;
+      box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1); /* Subtle white shadow */
+      max-width: 600px;
+      text-align: center;
+      border-radius: 10px;        /* Rounded corners */
+    }
+
+    /* Styling for the quote text */
+    #quote {
+      font-size: 24px;            /* Font size for the quote */
+      color: #00ff00;             /* Green color for quotes */
+      margin-bottom: 20px;
+    }
+
+    /* Author styling (if needed) */
+    #author {
+      font-size: 18px;
+      color: #ff0000;             /* Red color for author (optional) */
+      margin-top: 10px;
+    }
+
+    /* Styling for the attribution below the quotes */
+    .attribution {
+      margin-top: 20px;
+      font-size: 14px;
+      color: #fff;
+    }
+
+    .attribution a {
+      color: #00aaff;             /* Link color (blue) */
+      text-decoration: none;      /* No underline */
+    }
+
+    .attribution a:hover {
+      text-decoration: underline; /* Underline on hover */
+    }
+  </style>
+</head>
+<body>
+  <!-- Box containing the quote, styled to look professional -->
+  <div class="quote-box">
+    <div id="quote">Loading...</div>
+  </div>
+  
+  <!-- Attribution text with a clickable link to LinkedIn -->
+  <div class="attribution">
+    This Chrome extension is made by 
+    <a href="https://www.linkedin.com/in/sudoshivesh" target="_blank">Shivesh</a>
+  </div>
+
+  <!-- Link to the JavaScript file -->
+  <script src="script.js"></script>
+</body>
+</html>

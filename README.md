@@ -36,12 +36,48 @@ To install the extension in Developer Mode for testing purposes:
 
 ## How It Work
 
-+ HTML (newtab.html): This file defines the structure of the new tab page. It includes a div for displaying the random quote and an attribution section linking to the developer's LinkedIn profile.
+1. newtab.html
+   + This file defines the structure of the new tab page. It contains:
+      + A div for displaying the random quote.
+      + A link to the [developer's LinkedIn profile](https://www.linkedin.com/in/sudoshivesh) at the bottom of the page.
+      + A link to the favicon and styles to make the page look professional.
+2. CSS (Inline in newtab.html)
+   + The styles are written inline in the newtab.html file. The page is styled to have:
+      + A black background.
+      + A white-bordered quote box that is centered on the screen.
+      + Green and red text for the quotes and their authors.
+      + A clickable attribution link to the [developer's LinkedIn profile](https://www.linkedin.com/in/sudoshivesh).
+3. script.js
+   + This JavaScript file handles the logic for displaying a random quote each time the user opens a new tab. It works by:
+      + Defining an array of motivational quotes.
+      + Randomly selecting one quote from the array and displaying it in the quote box.
+      + Ensuring a smooth user experience with minimal loading times.
+4. manifest.json
+   + The manifest.json file is the configuration file that tells Chrome how to handle the extension. It includes essential information like:
+      + Manifest Version: Specifies the version of the manifest file format. For modern Chrome extensions, this is typically set to 3.
+      + Name: The name of the extension that appears in the Chrome Extensions page.
+      + Version: The current version of the extension.
+      + Description: A short description that appears in the Extensions page.
+      + Icons: Defines the path to the icons that represent the extension in different sizes.
+      + Action: Specifies the default popup file and icon for the extension.
+      + Permissions: The permissions required by the extension, such as storage or access to tabs.
+      + Chrome URL Overrides: This is where the extension overrides the default new tab page.
+5. Favicon.png
+   + The favicon.png file is used to display a custom icon on the browser tab. It is linked in the newtab.html file. To add a custom fevicon:
+     + Replace the favicon.png file with your preferred image.
+     + Ensure the favicon is properly linked in the newtab.html file:
+     + ```bash
+       <link rel="icon" type="image/png" href="favicon.png" />
 
-+ CSS (inline in newtab.html): The style is embedded in the HTML file, giving the new tab a professional appearance, with a black background, a white-bordered quote box, and text colors set to green for the quote and red for the author.
+## License
+This project is licensed under the MIT License. You can modify and use it for personal or commercial purposes, but please provide attribution to the original author.
 
-+ JavaScript (script.js): The JavaScript file is responsible for picking a random quote from a predefined list of motivational quotes and displaying it inside the quote box when the tab is opened.
+### Key Changes:
 
-+ LinkedIn Attribution: Below the quote, a clickable link points to the developer's LinkedIn profile.
+1. **Separated "Folder Structure" and "How It Works"**: The new section starts after the folder structure, ensuring clarity.
+2. **Added Information about `manifest.json`**: The explanation about `manifest.json` is added under the **How It Works** section.
+3. **Proper Markdown Structure**: Ensured that each section is clearly defined and doesn't interfere with the previous one.
+
+This updated structure should now be clean and easy to follow! Let me know if you need any further changes.
 
 

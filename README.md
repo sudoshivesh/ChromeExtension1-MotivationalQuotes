@@ -33,7 +33,7 @@ To install the extension in Developer Mode for testing purposes:
 5. The extension will be loaded and available for use in the browser. You can open a new tab to see it in action.
 
 ## Folder Structure
-
+```bash
 motivational-quotes-extension/
 │
 ├── manifest.json       # Configuration and metadata for the Chrome extension

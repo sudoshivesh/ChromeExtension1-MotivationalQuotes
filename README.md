@@ -10,7 +10,7 @@ This Chrome extension replaces your default new tab page with a simple, elegant 
 
 ## Preview
 
-![Motivational Quotes Extension Preview](path/to/screenshot.png) <!-- Add a screenshot here -->
+![Motivational Quotes Extension Preview](snapshot.png) <!-- Add a screenshot here -->
 
 ## Installation (Developer Mode)
 
